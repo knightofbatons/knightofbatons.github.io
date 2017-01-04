@@ -3,21 +3,21 @@
 <head>
   <meta charset="utf-8">
   
-  <title>category: market basket analysis | KnightOfBatons</title>
+  <title>java.lang.noclassdeffounderror | KnightOfBatons</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
+    <meta name="keywords" content="java.lang.NoClassDefFoundError" />
   
   
   
-  <meta name="description" content="Grant me the strength to accept the things that I cannot change, the courage to change the things I can and the wisdom to know the difference.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="KnightOfBatons">
-<meta property="og:url" content="https://knightofbatons.github.io/categories/Market-Basket-Analysis/index.html">
+  
+  <meta property="og:type" content="article">
+<meta property="og:title" content="java.lang.NoClassDefFoundError">
+<meta property="og:url" content="https://knightofbatons.github.io/2017/01/05/java-lang-NoClassDefFoundError/index.html">
 <meta property="og:site_name" content="KnightOfBatons">
-<meta property="og:description" content="Grant me the strength to accept the things that I cannot change, the courage to change the things I can and the wisdom to know the difference.">
+<meta property="og:updated_time" content="2017-01-04T16:46:51.071Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="KnightOfBatons">
-<meta name="twitter:description" content="Grant me the strength to accept the things that I cannot change, the courage to change the things I can and the wisdom to know the difference.">
+<meta name="twitter:title" content="java.lang.NoClassDefFoundError">
   
     <link rel="alternate" href="/atom.xml" title="KnightOfBatons" type="application/atom+xml">
   
@@ -49,8 +49,6 @@
   
 
   
-    <link rel="stylesheet" href="/css/archive.css" >
-  
 
 </head>
 
@@ -75,7 +73,7 @@
             
               <a class="brand" style="
                  border-width: 0px;  margin-top: 0px;"  
-                 >
+                href="#" data-toggle="modal" data-target="#myModal" >
                   <img width="124px" height="124px" alt="Hike News" src="/css/images/mylogo.jpg">
               </a>
             
@@ -144,44 +142,99 @@
             
       <div id="content" class="outer">
         
-          <section id="main" style="float:none;">
-  
-  
-  
+          <section id="main" style="float:none;"><article id="post-java-lang-NoClassDefFoundError" style="width: 75%; float:left;" class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
     
     
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <h1><a href="/archives/2017" class="archive-year">2017</a></h1>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      
-	<a href="/2017/01/03/MBA/" class="archive-article-date">
-	  <time datetime="2017-01-03T03:18:28.000Z" itemprop="datePublished">2017-01-03</time>
-	</a>
-
-      
+      <header class="article-header">
+        
   
-    <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/2017/01/03/MBA/">MBA</a>
+    <h1 class="thumb" class="article-title" itemprop="name">
+      java.lang.NoClassDefFoundError
     </h1>
   
 
-    </header>
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2017/01/05/java-lang-NoClassDefFoundError/" class="article-date">
+	  <time datetime="2017-01-04T16:01:05.000Z" itemprop="datePublished">2017-01-05</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/Hadoop/">Hadoop</a>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=22691514&auto=1&height=66"></iframe><br><a id="more"></a></p>
+</blockquote>
+<h3 id="Hadoop-jar-运行Jar包的时候出现的错误"><a href="#Hadoop-jar-运行Jar包的时候出现的错误" class="headerlink" title="Hadoop jar 运行Jar包的时候出现的错误"></a>Hadoop jar 运行Jar包的时候出现的错误</h3><p>今天照着<a href="http://blog.csdn.net/fxsdbt520/article/details/53893421" target="_blank" rel="external">之前提到过的博客</a>尝试了一下HBASE-&gt;ElasticSearch<br>用到了TableMapper，结果 java.lang.NoClassDefFoundError<br>原因大概是编译的时候有 但运行的时候没找到</p>
+<h4 id="错误原因"><a href="#错误原因" class="headerlink" title="错误原因"></a>错误原因</h4><p>hadoop-env.sh<br>classpath设置有问题，导致找不到jar <a href="http://pwg17.github.io/2014/09/24/hadoop-NoClassDefFoundError/" target="_blank" rel="external">这里</a>说的比较清楚</p>
+<h4 id="解决方式"><a href="#解决方式" class="headerlink" title="解决方式"></a>解决方式</h4><p>比如我加上Hbase的Jar包<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">for</span> f <span class="keyword">in</span> /home/hbase-1.2.4/lib/*.jar; <span class="keyword">do</span></div><div class="line">HADOOP_CLASSPATH=<span class="variable">$&#123;HADOOP_CLASSPATH&#125;</span>:<span class="variable">$f</span></div><div class="line"><span class="keyword">done</span></div></pre></td></tr></table></figure></p>
+<p>问题解决了</p>
+<h3 id="夜空"><a href="#夜空" class="headerlink" title="夜空*"></a>夜空*</h3><p>今天这 HBASE-&gt;ElasticSearch 真像这嗓音一样有毒<br>很多事情都不像最初想的那么简单啊，都快习惯了</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+        
+	<div id="comment">
+	
+	<!-- 多说评论框 start -->
+	 <div class="ds-thread" data-thread-key="/2017/01/05/java-lang-NoClassDefFoundError/" data-title="java.lang.NoClassDefFoundError" data-url="https://knightofbatons.github.io/2017/01/05/java-lang-NoClassDefFoundError/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"iTimeTraveler"};
+	  (function() {
+	    var ds = document.createElement('script');
+	    ds.type = 'text/javascript';ds.async = true;
+	    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+	    ds.charset = 'UTF-8';
+	    (document.getElementsByTagName('head')[0] 
+	     || document.getElementsByTagName('body')[0]).appendChild(ds);
+	  })();
+	  </script>
+	<!-- 多说公共JS代码 end -->
+	
+	</div>
+
+
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hadoop/">Hadoop</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/NoClassDefFoundError/">NoClassDefFoundError</a></li></ul>
+
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2017/01/03/MBA/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">下一篇</strong>
+      <div class="article-nav-title">MBA</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
+<!-- Table of Contents -->
 
+  <aside id="sidebar">
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Hadoop-jar-运行Jar包的时候出现的错误"><span class="toc-number">1.</span> <span class="toc-text">Hadoop jar 运行Jar包的时候出现的错误</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#错误原因"><span class="toc-number">1.1.</span> <span class="toc-text">错误原因</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#解决方式"><span class="toc-number">1.2.</span> <span class="toc-text">解决方式</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#夜空"><span class="toc-number">2.</span> <span class="toc-text">夜空*</span></a></li></ol>
+    
+    </div>
+  </aside>
 </section>
         
       </div>
@@ -273,6 +326,8 @@
 
 
 
+
+  <script src="/js/dialog.js"></script>
 
 
 
