@@ -11,13 +11,16 @@
   
   
   
-  <meta property="og:type" content="article">
+  <meta name="description" content="Hadoop jar 运行Jar包的时候出现的错误">
+<meta property="og:type" content="article">
 <meta property="og:title" content="java.lang.NoClassDefFoundError">
 <meta property="og:url" content="https://knightofbatons.github.io/2017/01/05/java-lang-NoClassDefFoundError/index.html">
 <meta property="og:site_name" content="KnightOfBatons">
-<meta property="og:updated_time" content="2017-01-04T17:04:30.683Z">
+<meta property="og:description" content="Hadoop jar 运行Jar包的时候出现的错误">
+<meta property="og:updated_time" content="2017-01-04T17:20:12.034Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="java.lang.NoClassDefFoundError">
+<meta name="twitter:description" content="Hadoop jar 运行Jar包的时候出现的错误">
   
     <link rel="alternate" href="/atom.xml" title="KnightOfBatons" type="application/atom+xml">
   
@@ -169,15 +172,13 @@
     <div class="article-entry" itemprop="articleBody">
       
         <blockquote>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=22691514&auto=0&height=66"></iframe>
-
+<p>Hadoop jar 运行Jar包的时候出现的错误<br><a id="more"></a></p>
 </blockquote>
-<a id="more"></a>
-<h3 id="Hadoop-jar-运行Jar包的时候出现的错误"><a href="#Hadoop-jar-运行Jar包的时候出现的错误" class="headerlink" title="Hadoop jar 运行Jar包的时候出现的错误"></a>Hadoop jar 运行Jar包的时候出现的错误</h3><p>今天照着<a href="http://blog.csdn.net/fxsdbt520/article/details/53893421" target="_blank" rel="external">之前提到过的博客</a>尝试了一下HBASE-&gt;ElasticSearch<br>用到了TableMapper，结果 java.lang.NoClassDefFoundError<br>原因大概是编译的时候有 但运行的时候没找到</p>
+<p>今天照着<a href="http://blog.csdn.net/fxsdbt520/article/details/53893421" target="_blank" rel="external">之前提到过的博客</a>尝试了一下HBASE-&gt;ElasticSearch<br>用到了TableMapper，结果 java.lang.NoClassDefFoundError<br>原因大概是编译的时候有 但运行的时候没找到</p>
 <h4 id="错误原因"><a href="#错误原因" class="headerlink" title="错误原因"></a>错误原因</h4><p>hadoop-env.sh<br>classpath设置有问题，导致找不到jar <a href="http://pwg17.github.io/2014/09/24/hadoop-NoClassDefFoundError/" target="_blank" rel="external">这里</a>说的比较清楚</p>
 <h4 id="解决方式"><a href="#解决方式" class="headerlink" title="解决方式"></a>解决方式</h4><p>比如我加上Hbase的Jar包<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">for</span> f <span class="keyword">in</span> /home/hbase-1.2.4/lib/*.jar; <span class="keyword">do</span></div><div class="line">HADOOP_CLASSPATH=<span class="variable">$&#123;HADOOP_CLASSPATH&#125;</span>:<span class="variable">$f</span></div><div class="line"><span class="keyword">done</span></div></pre></td></tr></table></figure></p>
 <p>问题解决了</p>
-<h3 id="夜空"><a href="#夜空" class="headerlink" title="夜空*"></a>夜空*</h3><p>今天这 HBASE-&gt;ElasticSearch 真像这嗓音一样有毒<br>很多事情都不像最初想的那么简单啊，都快习惯了</p>
+<h3 id="夜空"><a href="#夜空" class="headerlink" title="夜空*"></a>夜空*</h3><p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="https://music.daoapp.io/iframe?song=22691514&qssl=1&qlrc=0&qnarrow=0&autoplay=1"></iframe><br>今天这 HBASE-&gt;ElasticSearch 真像这嗓音一样有毒<br>很多事情都不像最初想的那么简单啊，都快习惯了</p>
 
       
     </div>
@@ -233,7 +234,7 @@
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
     
-      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Hadoop-jar-运行Jar包的时候出现的错误"><span class="toc-number">1.</span> <span class="toc-text">Hadoop jar 运行Jar包的时候出现的错误</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#错误原因"><span class="toc-number">1.1.</span> <span class="toc-text">错误原因</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#解决方式"><span class="toc-number">1.2.</span> <span class="toc-text">解决方式</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#夜空"><span class="toc-number">2.</span> <span class="toc-text">夜空*</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#错误原因"><span class="toc-number">1.</span> <span class="toc-text">错误原因</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#解决方式"><span class="toc-number">2.</span> <span class="toc-text">解决方式</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#夜空"><span class="toc-number"></span> <span class="toc-text">夜空*</span></a>
     
     </div>
   </aside>
