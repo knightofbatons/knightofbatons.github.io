@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>KnightOfBatons</title>
+  <subtitle>Notebook</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://knightofbatons.github.io/"/>
+  <updated>2017-03-10T15:30:27.366Z</updated>
+  <id>https://knightofbatons.github.io/</id>
+  
+  <author>
+    <name>ChenYu</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Graduation-Project</title>
+    <link href="https://knightofbatons.github.io/2017/03/09/Graduation-Project/"/>
+    <id>https://knightofbatons.github.io/2017/03/09/Graduation-Project/</id>
+    <published>2017-03-09T08:48:00.000Z</published>
+    <updated>2017-03-10T15:30:27.366Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>喜闻乐见的写毕设开题报告<br><a id="more"></a></p>
+</blockquote>
+<p>题目暂且定为爬虫软件及定向搜索服务的设计与实现<br>爬虫我是用过的 丢给它链接 可能需要制定过滤规则 定时运行爬取过滤 存储待用<br>定向搜索 搜索的一种吧<br>通过了解 搜索引擎能根据关键字返回结果的背后<br>是 爬虫在互联网中爬取了成千上万的网页 经过了 提取 组织 索引 排序 等等很多复杂的工作 </p>
+<h2 id="解读任务书"><a href="#解读任务书" class="headerlink" title="解读任务书"></a>解读任务书</h2><h3 id="主要内容以及目标"><a href="#主要内容以及目标" class="headerlink" title="主要内容以及目标"></a>主要内容以及目标</h3><p>“由于互联网中的包含海量的信息资源，用户每次检索获取的信息量过于庞杂，很难在大量的检索结果中抽取出我们真正需要的信息。<br>本系统设计的目的就是可以根据特定用户的定制检索要求，为用户定期提供符合用户需要的搜索服务，并将搜索结果推送给用户。<br>为此，我们需要利用爬虫软件在互联网上抓取数据，并根据不同用户的需要对抓取到的结果进行分析、整理后保存在特定的数据库中，再根据不同用户的不同需要，定时为用户提供推送服务。<br>通过实际项目的开发，锻炼学生的科研开发能力和工程实践能力，以便能够提升就业竞争力和实际工作能力。”</p>
+<p>看起来还不错的点子不是么？</p>
+<h3 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h3><p>我针对这个需求进行了一系列检索之后 -&gt; <a href="https://zh.wikipedia.org/wiki/RSS" target="_blank" rel="external">RSS</a> 被我“发现”了<br>定阅自己想看的！这不就是我需要的技术么？<br>依稀记得当年 Google Reader 要停止服务的时候 “Google公司门前「万人签名拯救Google Reader」” 这样的标题似乎引起过我的注意<br>Google Reader 基础上就是一个RSS阅读器 那么它<a href="https://www.williamlong.info/archives/3406.html" target="_blank" rel="external">为什么被停用了？</a></p>
+<p>可见类似的需求还是有的，但也不会是非常大众的，这是当年。<br>从Google Reader 关闭的2013年到现在 互联网的蓬勃发展有目共睹 用户需求与应用技术日新月异 更别说是4年之久了<br>在这些年中 智能手机广泛普及 各种应用层出不穷代代更迭 我们的阅读与浏览有了怎么样的改变？<br>毫无疑问 在这个”信息时代” 数据的爆炸是存在的，但数据不等同于信息！数据是物理的而信息是释义的<br>把所有数据都当作信息来试图丢给人来理解肯定是不行的 会造成<a href="http://www.bengu.cn/homepage/paper/paper75.htm" target="_blank" rel="external">信息过载</a></p>
+<p>人人网 QQ空间 在过去的几年里曾经如如中天 如今人们却纷纷<a href="https://www.tmtpost.com/94396.html" target="_blank" rel="external">逃离</a> 这种现象不一而足<br>究其原因肯定不会是单一的，但肯定有信息中夹杂了越来越多噪音的份————信息不再是信息而更像是数据了。被多次转载的老段子和自己毫无关联的新闻已经淹没了正常需要的东西。</p>
+<p>就我来说，打开浏览器 我有收藏夹 里面是一些优秀的网站满足我各种各样的需求 交流社区 视频&amp;直播网站 wiki 博客 学习 乃至 成人内容<br>需要搜索的时候 比较新的技术类我会用Google 而百度俨然已经成为了贴吧经验搜索专用<br>bing由于其反馈的信息较少把我的注意力一再吸引到别的地方成为日常所用，然而陌生的词汇一带二二带三依然难以避免。<br>我很少的用手机(认识我的人经常说通过微信甚至手机找到我要靠运气~笑)，几乎不发也很少看朋友圈。<br>我没感觉到信息过载，因为我合理的手动过滤掉了不需要的。<br>可这就像RSS订阅源一样对用户有很高的要求，需要自己去一一发现甄别哪些是自己需要的，如果设置不当，RSS订阅也会演变成消灭未读的战争。</p>
+<h3 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h3><p>我的水平去做一个类似搜索引擎的爬取互联网上成千上万的网页来达成目标肯定是不现实的，也许爬取RSS源是更正确的选择。<br>让程序处理数据把信息传递给人！</p>
+<h3 id="初步设想"><a href="#初步设想" class="headerlink" title="初步设想"></a>初步设想</h3><p>也许用 Spring boot 构建Web页面<br>在Web页面可以选择提供的RSS源 可以发送到邮箱供查看<br>这俨然成了一个RSS阅读器？<br>这个想法和具体实现或许有许多问题啊，不过没有问题解决就没有学习的动力啊···</p>
+<h2 id="远方的灯塔"><a href="#远方的灯塔" class="headerlink" title="远方的灯塔"></a>远方的灯塔</h2><p>有了初步设想之后总感觉怪怪的<br>看了<a href="http://3elife.baijia.baidu.com/article/760734?qq-pf-to=pcqq.c2c" target="_blank" rel="external">当谈到RSS的现状 为什么只有一声叹息</a> 还有<a href="https://www.zhihu.com/question/28861876" target="_blank" rel="external">为什么RSS存在，还会出现今日头条？</a>更加恍惚了<br>这时候一篇在Github Pages的文章<a href="https://everettjf.github.io/2016/05/13/how-to-write-a-simple-feed-reader" target="_blank" rel="external">How to write an RSS reader, readme for 番茄阅读</a>被我发现了<br>文章的作者<a href="https://everettjf.github.io/" target="_blank" rel="external">everettjf</a> 制作了他的app <a href="https://itunes.apple.com/us/app/id1111654149" target="_blank" rel="external">番茄阅读</a><br>我也许大体上知道我想要做个什么出来了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;喜闻乐见的写毕设开题报告&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Study" scheme="https://knightofbatons.github.io/categories/Study/"/>
+    
+    
+      <category term="Graduation-Project" scheme="https://knightofbatons.github.io/tags/Graduation-Project/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Walden</title>
+    <link href="https://knightofbatons.github.io/2017/03/01/Walden/"/>
+    <id>https://knightofbatons.github.io/2017/03/01/Walden/</id>
+    <published>2017-03-01T10:58:02.000Z</published>
+    <updated>2017-03-10T16:33:45.058Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>关于阅读，来自瓦尔登湖。<br><a id="more"></a></p>
+</blockquote>
+<h2 id="关于阅读"><a href="#关于阅读" class="headerlink" title="关于阅读"></a>关于阅读</h2><h3 id="A"><a href="#A" class="headerlink" title="A"></a>A</h3><p>“伟大诗人的杰作尚未得到世人真正的阅读，因为也只有伟大的诗人能够领略它们。<br>众人翻阅这些诗作一如他们观察群星，只是从占星的方面而非天文的角度。<br>在很多人眼里，阅读只是为了自己能求得些微方便而已，正像他们认识数字仅仅为了记账，或是做买卖时不会上当一样，至于阅读之作为一项高贵的智力训练，他们则知之甚少乃或一无所知。<br>然而，在更高的意义上，只有这样才算是阅读：并非视为奢华以求抚慰，亦菲让高贵的智性陷入昏睡，而是那种需要我们踮起脚尖，屏气凝神，需要我们无比警觉，时刻清醒的方式。”</p>
+<p>那么我阅读的目的是什么呢？只能说不一而又多样。<br>为了应付笔试的通过，拜人陡的吓人的记忆曲线所赐，我就像一个与下水管也没什么本质区别的通道，无论顺畅与否我还是把可能需要知道的东西从书本中搬到了考卷上，如此一来肯定是有残留下味道的，但更多的是锈迹斑斑。<br>为了打发闲散的时间，不用想这样的阅读能带给我什么，无论是什么材料在对的时间对的角度加以混合总会有一些不一样的东西，对于那些东西没有期待但总会有惊喜。<br>为了解决迷惘的疑惑，“听说瓦尔登湖很厉害？”——‘真厉害！’</p>
+<h3 id="B"><a href="#B" class="headerlink" title="B"></a>B</h3><p>“我认为识字之后就应该读最好的文学书籍，再不要像四五年级学生那样，永无止境地重复着字母表和最简单的词，终生坐在前排座位。<br>大多人只消读一读或听一听，或偶然之际因领受了一本好书的智慧，如《圣经》，便浅尝辄止，然后将官能挥霍于一种所谓的休闲阅读而了却余生。<br>我们的流通图书馆里就有为数不少的书籍归为“初级读本”，我还以为它指的是我未曾去过的某个镇子。<br>有人简直就是鸵鸟和鸬鹚，遇到这类东西就会照单全收，似乎酒足饭饱依然无法餍（yan 4）足，因为他们无法容忍浪费。<br>如果有些人算是加工这些饲料的机器，那么他们就是消耗这些饲料的角色。<br>他们在阅读关于龙傲天和玛丽苏故事的第九千个版本——他们的爱情旷古所无，他们真挚的爱情之路布满荆棘云云，无论怎样，这些内容少不了：他们如何相爱然后便遭遇磨难，接着他们重新起身毅然前行！某些可怜虫是如何攀上了尖顶（我看他们最好连钟楼那里都不要上去）。<br>小说家毫无必要地把他送到那里之后，便陶醉不已地摇起了铃铛，召集全世界前来聆听：哦，天哪他能下来吗！在我看来，小说家最好还是把这类畅销书中意气非凡的男子汉都变成肉质风标，就好像惯于将英雄捧到星座之中那样，然后让他永远在空中旋转直到锈迹斑斑，再不要让他们下来用闹剧欺负老实人了。”</p>
+<p>记忆中没有一次我会为阅读文学经典挑灯熬夜，但我会为抓住我的故事与技术那么做。<br>而那些满足了欲望的常常站却着明亮的书桌，那些喂食精神的反倒属于了那地铁上摇晃的角落。<br>看到这段的我正在地铁上，前不久还盘算着晚上补完哪本贴吧小说呢。</p>
+<h3 id="C"><a href="#C" class="headerlink" title="C"></a>C</h3><p>“最好的书无人问津，甚至包括那些被称为优秀读者的人。<br>我们整个康科德的文化又能算得了什么？这里根本不存在对好书的鉴赏，即使那些没有读写障碍的英国文学作品也遭此下场，这种情况极少例外。<br>即便科班出身或身受文科教育的人对英文经典也了解甚少，或者说一片空白，这种情况俯拾即是。<br>至于那些承载着人类智慧的书籍，亦即古代的经典和圣书，只要想了解就可以找到，但是人们却不愿意做出哪怕是一丁点的努力。”</p>
+<p>我读过的好书用一双手数的过来，算上被我忘记的加上脚趾也够了。<br>看到这段的时候我不禁感叹——“说的真好！”<br>随想安利给旁边的赵大神读一下。</p>
+<h3 id="D"><a href="#D" class="headerlink" title="D"></a>D</h3><p>“设若有人刚读过差不多算是最好的英文书籍，他又能找到几个人就此进行探讨？<br>那么，他如果读了希腊和拉丁文的原典——它们的品味连所谓文盲都一清二楚，他会发现压根就没有人可以跟他交流心得，因此他只能保持沉默。<br>情况的确如此，我们的大学几乎没有这样的教授，他能在多大程度上攻克希腊文法的难点，就能在相应程度上把握希腊诗人的智慧及作品，同时也会将相应的感悟传递给敏锐警悟的读者。<br>至于那些神圣的典籍，或曰人类的圣经，在这里有谁哪怕能说出他们的名字？很多人都不知道，除了希伯来之外，其他名族也都拥有自己的经典。<br>有人，或者说所有人，会非常情愿地去拾取银币而不厌其烦，但是又如何面对那些金子般的词句？他们是最特出的古代智者的创造，随后又得到每一个充满智慧的时代的检验。<br>然而，我们读的却永远是简易读物，先是初级读本和课本，离开学校后便是“小读本”和写给孩童与入门者的故事书。<br>我们的阅读，我们的谈话，还有我们的思想都处于非常低下的水平，只抵得上侏儒和俾格米人的程度。”</p>
+<p>“这段真的好精彩你愿意看一下么？”<br>“算了。”<br><em>(:з」∠)</em></p>
+<h3 id="E"><a href="#E" class="headerlink" title="E"></a>E</h3><p>“我渴望结识比土生土长的康科德人更富智慧的那些人，他们的名字在这里几乎无人知道。<br>难道我会听说过柏拉图的名字而压根不读他的著作？这恰如柏拉图是一位我未曾谋面的同乡：他是我的近邻，我却从未听过他的言谈或留意过他言辞中的智慧。但实际情况如何呢？<br>那本蕴含着他不朽思想的《对话篇》就在我近旁的书架上，而我却从未翻开过。<br>我们真是教养欠缺，粗鄙浅陋之辈！就这方面而言，我可以坦白地说，本乡目不识丁的文盲跟那些尽管识字但一味阅读低幼弱智书籍的文盲之间没什么明显的区别。<br>我们应该像先贤看齐，但我们首先要去了解他们是何等出色。<br>我们是侏儒，我们也翱翔——但我们的心智遨游却从未越过日报专栏的那个高度。”</p>
+<p>看向我身边沾满灰尘的《悲惨世界》</p>
+<h3 id="F"><a href="#F" class="headerlink" title="F"></a>F</h3><p>“并非所有的书籍如同其读者那样乏味无趣。<br>世上或许就有书恰如其分地反映了我们的处境，如果我们能够悉心领教的话，它们会为我们的生命带来比清晨和春天更加健康气息，或许还会让我们周围的一切焕发出新的光彩，有多少人就因为读过一本书后便为生命翻开了新的一页！<br>书籍在等着我们，有时候它会在为我们解密奇迹的同时展示出另一番奇迹；我们会发现某些在眼下难以言说的现象却早已在别处获得了表达;那些折腾我们，让我们迷惘困惑的问题无一例外地访问过所有智者，这些问题在他们那里一个都没有遗漏，他们都根据自己的才能，用自己的语言，结合自己的人生给予了解答。”</p>
+<p>突然回想起了很久以前和马大爷的对话。<br>C:“为甚么国家发展到现在我还是不可避免的看到贫穷、不公、与社会强加在个人上的灾难？”<br>M:“…”<br>C:“我思来想去觉得这些问题没法解决，只有一个办法——如果有个组织的最终目标是炸掉地球我一定会加入它的！ 笑~”<br>M:“你这也太消极了！另外这些不是你需要想的事，国家领导人为这些事情还整天头疼呢吧?”<br>C:”…”<br>M:”而且很多问题之前的人肯定也思考过并且有一些解决办法，只不过咱们不知道罢了。”<br>瞬间惊为天人···</p>
+<p>无知的抱怨，把对社会的不满当作政治正确的人们也许该多看看书？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;关于阅读，来自瓦尔登湖。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Read" scheme="https://knightofbatons.github.io/categories/Read/"/>
+    
+    
+      <category term="Walden" scheme="https://knightofbatons.github.io/tags/Walden/"/>
+    
+      <category term="Book" scheme="https://knightofbatons.github.io/tags/Book/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java.lang.NoClassDefFoundError</title>
+    <link href="https://knightofbatons.github.io/2017/01/05/java-lang-NoClassDefFoundError/"/>
+    <id>https://knightofbatons.github.io/2017/01/05/java-lang-NoClassDefFoundError/</id>
+    <published>2017-01-04T16:01:05.000Z</published>
+    <updated>2017-03-09T09:03:49.649Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>Hadoop jar 运行Jar包的时候出现的错误<br><a id="more"></a></p>
+</blockquote>
+<p>今天照着<a href="http://blog.csdn.net/fxsdbt520/article/details/53893421" target="_blank" rel="external">之前提到过的博客</a>尝试了一下HBASE-&gt;ElasticSearch<br>用到了TableMapper，结果 java.lang.NoClassDefFoundError<br>原因大概是编译的时候有 但运行的时候没找到</p>
+<h4 id="错误原因"><a href="#错误原因" class="headerlink" title="错误原因"></a>错误原因</h4><p>hadoop-env.sh<br>classpath设置有问题，导致找不到jar <a href="http://pwg17.github.io/2014/09/24/hadoop-NoClassDefFoundError/" target="_blank" rel="external">这里</a>说的比较清楚</p>
+<h4 id="解决方式"><a href="#解决方式" class="headerlink" title="解决方式"></a>解决方式</h4><p>比如我加上Hbase的Jar包<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">for</span> f <span class="keyword">in</span> /home/hbase-1.2.4/lib/*.jar; <span class="keyword">do</span></div><div class="line">HADOOP_CLASSPATH=<span class="variable">$&#123;HADOOP_CLASSPATH&#125;</span>:<span class="variable">$f</span></div><div class="line"><span class="keyword">done</span></div></pre></td></tr></table></figure></p>
+<p>问题解决了</p>
+<h3 id="夜空"><a href="#夜空" class="headerlink" title="夜空*"></a>夜空*</h3><p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="https://music.daoapp.io/iframe?song=22691514&qssl=1&qlrc=0&qnarrow=0&autoplay=1"></iframe><br>今天这 HBASE-&gt;ElasticSearch 真像这嗓音一样有毒<br>很多事情都不像最初想的那么简单啊，都快习惯了</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Hadoop jar 运行Jar包的时候出现的错误&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Experience" scheme="https://knightofbatons.github.io/categories/Experience/"/>
+    
+    
+      <category term="Hadoop" scheme="https://knightofbatons.github.io/tags/Hadoop/"/>
+    
+      <category term="Java" scheme="https://knightofbatons.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MBA</title>
+    <link href="https://knightofbatons.github.io/2017/01/03/MBA/"/>
+    <id>https://knightofbatons.github.io/2017/01/03/MBA/</id>
+    <published>2017-01-03T03:18:28.000Z</published>
+    <updated>2017-03-09T09:09:22.793Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>揭开购物篮分析的神秘面纱 阅读借来的动物书 备忘笔记<br><a id="more"></a></p>
+</blockquote>
+<p>在地铁上看《瓦尔登湖》<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">一个月过后两个孩子谁将获得最大的发展：一个挖掘矿物，通过冶炼，为自己制造了一把折叠刀，</div><div class="line">其间，为了实现这个目的尽可能进行了大量的阅读；另一位则置身于学院，参加了关于炼金术的讲座，</div><div class="line">后来从他父亲那里接受了一把落杰斯特折叠刀。哪一位又最有可能被刀子割破手指呢？</div></pre></td></tr></table></figure></p>
+<p>这本书于我很神奇的地方就是总能让我停下读它，激发我去做一些别的什么<br>于是我在地铁上读了从赵大神那里借来的，在家没怎么看的动物书《数据算法》<br>人的记忆曲线陡的吓人，到学校就着手记录了一下最近正好也能用上的样子。</p>
+<h2 id="MBA目标"><a href="#MBA目标" class="headerlink" title="MBA目标"></a>MBA目标</h2><p>有五个商品<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;A,B,C,D,E&#125;</div></pre></td></tr></table></figure></p>
+<p>对应6个交易（在电商中可以通过收集交易记录的日志获取）<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">Transaction 1 ：A,C</div><div class="line">Transaction 2 ：B,D</div><div class="line">Transaction 3 ：A,C,E</div><div class="line">Transaction 4 ：C,E</div><div class="line">Transaction 5 ：A,B,E</div><div class="line">Transaction 6 ：B,E</div></pre></td></tr></table></figure></p>
+<p>目标为构建项集 F1 和 F2<br>例子中构建F1和F2所用最小支持度为2 所以去除了 支持度为1的[D,1]<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">F1 = &#123;[C,3],[A,3],[B,3],[E,4]&#125;</div><div class="line">F1 = &#123;[&lt;A,C&gt;,2],[&lt;C,E&gt;,2],[&lt;A,E&gt;,2],[&lt;B,E&gt;,2]&#125;</div></pre></td></tr></table></figure></p>
+<p>项集F1和F2可以生成交易的<a href="http://www.bing.com/knows/search?q=%E5%85%B3%E8%81%94%E8%A7%84%E5%88%99&amp;mkt=zh-cn&amp;FORM=BKACAI" target="_blank" rel="external">关联规则</a><br>数据挖掘中，关联规则有两个度量标准支持度 Support 置信度 Confidence <a href="http://www.cnblogs.com/bobsoft/articles/2714561.html" target="_blank" rel="external">解释：博客园</a> <a href="http://nwsuafer.blog.163.com/blog/static/18359836120106130556633/" target="_blank" rel="external">解释：网易博客</a></p>
+<h3 id="项集可以解答的问题"><a href="#项集可以解答的问题" class="headerlink" title="项集可以解答的问题"></a>项集可以解答的问题</h3><p>哪些商品会被一起购买？<br>商品如何邻近放置？（在电商中就是商品目录如何设置）<br>等等</p>
+<h3 id="使用MapReduce的MBA"><a href="#使用MapReduce的MBA" class="headerlink" title="使用MapReduce的MBA"></a>使用MapReduce的MBA</h3><p>我们收集到这样的信息<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">Transaction 1 ：蛋糕，冰淇淋，咖啡，苹果</div><div class="line">Transaction 2 ：鸡肉，披萨，咖啡，面包</div><div class="line">Transaction 3 ：书包，小苏打，刮胡刀，蛋糕，百事可乐</div><div class="line">Transaction 4 ：书包，象棋，打印纸，牛奶</div><div class="line">等等</div></pre></td></tr></table></figure></p>
+<p>我们需要的输出<br>二阶<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">(蛋糕，咖啡) 9709</div><div class="line">(小苏打，鸡蛋) 7524</div><div class="line">(书包，牛奶) 6666</div><div class="line">(象棋，苹果) 2333</div><div class="line">等等</div></pre></td></tr></table></figure></p>
+<p>三阶<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">(蛋糕，咖啡，鸡蛋) 9709</div><div class="line">(小苏打，鸡蛋，书包) 7524</div><div class="line">(书包，牛奶，象棋) 6666</div><div class="line">(象棋，苹果，鸡蛋) 2333</div><div class="line">等等</div></pre></td></tr></table></figure></p>
+<h4 id="其中列出所有两两三三组合的问题"><a href="#其中列出所有两两三三组合的问题" class="headerlink" title="其中列出所有两两三三组合的问题"></a>其中列出所有两两三三组合的问题</h4><p>毫无疑问的需要给组合计数，首先需要分出有哪些不同的组合，这是一个经典数学问题了<br>这里需要注意的是<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Transaction 1 ：蛋糕，冰淇淋，咖啡</div><div class="line">Transaction 2 ：冰淇淋，咖啡，蛋糕</div></pre></td></tr></table></figure></p>
+<p>这种不同记录顺序的相同交易会被计算出<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&#123;[(蛋糕,冰淇凌)，1],[(蛋糕,咖啡)，1],[(冰淇凌,咖啡)，1]&#125;</div><div class="line">&#123;[(冰淇凌,咖啡)，1],[(冰淇凌,蛋糕)，1],[(咖啡,蛋糕)，1]&#125;</div></pre></td></tr></table></figure></p>
+<p>这样是不对的，有一些相同的KEY被区别开了，所以需要按统一规则排序再进行计算就不会出现不同的KEY其实是一件事了</p>
+<h4 id="尝试编写"><a href="#尝试编写" class="headerlink" title="尝试编写"></a>尝试编写</h4><p>书上的代码比较简洁（缺东西），我照着实现了一下，具体用的话改改输入输出应该就可以了（现在是从HDFS输入和输出）<br><a href="https://github.com/knightofbatons/HadoopMBATest.git" target="_blank" rel="external">我的实现代码已经分享到了GitHub</a><br>输入<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">crackers,bread,banana</div><div class="line">crackers,coke,butter,coffee</div><div class="line">crackers,bread</div><div class="line">bread,crackers</div><div class="line">crackers,bread,coffee</div><div class="line">butter,coke</div><div class="line">butter,coke,bread,crackers</div></pre></td></tr></table></figure></p>
+<p>运行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hadoop jar /home/HadoopTest.jar MBADriver /MBA/input /MBA/output 2</div></pre></td></tr></table></figure></p>
+<p>输出<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">[banana, bread]	1</div><div class="line">[banana, crackers]	1</div><div class="line">[bread, butter]	1</div><div class="line">[bread, coffee]	1</div><div class="line">[bread, coke]	1</div><div class="line">[bread, crackers]	5</div><div class="line">[butter, coffee]	1</div><div class="line">[butter, coke]	3</div><div class="line">[butter, crackers]	2</div><div class="line">[coffee, coke]	1</div><div class="line">[coffee, crackers]	2</div><div class="line">[coke, crackers]	2</div></pre></td></tr></table></figure></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;揭开购物篮分析的神秘面纱 阅读借来的动物书 备忘笔记&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Study" scheme="https://knightofbatons.github.io/categories/Study/"/>
+    
+    
+      <category term="Market Basket Analysis" scheme="https://knightofbatons.github.io/tags/Market-Basket-Analysis/"/>
+    
+      <category term="MapReduce" scheme="https://knightofbatons.github.io/tags/MapReduce/"/>
+    
+      <category term="Hadoop" scheme="https://knightofbatons.github.io/tags/Hadoop/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Elasticsearch+Kibana</title>
+    <link href="https://knightofbatons.github.io/2017/01/01/Elasticsearch-Kibana/"/>
+    <id>https://knightofbatons.github.io/2017/01/01/Elasticsearch-Kibana/</id>
+    <published>2017-01-01T14:27:47.000Z</published>
+    <updated>2017-03-09T09:07:15.099Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>被Kibana的功能深深吸引，试着了解了一下  <a href="https://www.elastic.co/" target="_blank" rel="external">Elasticsearch + Kibana</a><br>记录过程，索引备忘<br><a id="more"></a></p>
+</blockquote>
+<h2 id="马上开始"><a href="#马上开始" class="headerlink" title="马上开始"></a>马上开始</h2><h2 id="安装-Elasticsearch-Kibana-X-Pack"><a href="#安装-Elasticsearch-Kibana-X-Pack" class="headerlink" title="安装 Elasticsearch + Kibana + X-Pack"></a>安装 Elasticsearch + Kibana + X-Pack</h2><p>官网提供了   <a href="https://www.elastic.co/start" target="_blank" rel="external">简洁的安装指导</a></p>
+<h3 id="其中可能会遇到的坑"><a href="#其中可能会遇到的坑" class="headerlink" title="其中可能会遇到的坑"></a>其中可能会遇到的坑</h3><p>因为安全方面的考虑这些组件默认只能在非ROOT用户下开启，ROOT用户开启会被拒绝并报错<br>对于我只有ROOT用户的测试环境创建一个用户来使用就好了<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">useradd 用户</div><div class="line">passwd 密码</div><div class="line">chown -R 用户 /那些组件的目录</div></pre></td></tr></table></figure></p>
+<p>官网教程里打开Kibana的地址是<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">http://localhost:5601</div></pre></td></tr></table></figure></p>
+<p>当我们需要在非本机访问时（例如我在Linux虚拟机下安装需要在Win下访问）<br>需要修改配置文件 /KIBANA_HOME/config/kibana.yml 中的 server.host<br>因为默认为回环地址不允许远程用户访问</p>
+<p>我修改为<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">server.host: 192.168.231.233</div></pre></td></tr></table></figure></p>
+<p>修改后的远程访问地址为<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">http://192.168.231.233:5601</div></pre></td></tr></table></figure></p>
+<h2 id="快速上手"><a href="#快速上手" class="headerlink" title="快速上手"></a>快速上手</h2><p>跟着官网的小例子   <a href="https://www.elastic.co/guide/en/kibana/current/getting-started.html" target="_blank" rel="external">Getting Started</a>  了解一下 Elasticsearch + Kibana 的流程<br>同时有中文转述在这里  <a href="http://blog.csdn.net/ming_311/article/details/50619859" target="_blank" rel="external">Kibana基本使用</a>  是基本一样的内容<br>里面用到的数据文件都有提供下载</p>
+<h3 id="其中可能会遇到的坑-1"><a href="#其中可能会遇到的坑-1" class="headerlink" title="其中可能会遇到的坑"></a>其中可能会遇到的坑</h3><p>官网教程里curl直接用例如<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">curl -XPUT</div></pre></td></tr></table></figure></p>
+<p>可是咱们安装了 X-Pack 是有安全防护的需要用户名和密码才能操作<br>安装完默认为 Username: elastic Password: changeme 可以修改<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">curl --user elastic -XPUT</div></pre></td></tr></table></figure></p>
+<p>之后按提示输入密码就可以正常使用curl了</p>
+<h3 id="简例出一个流程"><a href="#简例出一个流程" class="headerlink" title="简例出一个流程"></a>简例出一个流程</h3><p>为莎士比亚数据集建立一个索引（index）<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">curl --user elastic -XPUT http://localhost:9200/shakespeare <span class="_">-d</span> <span class="string">'</span></div><div class="line">&#123;</div><div class="line"> "mappings" : &#123;</div><div class="line">  "_default_" : &#123;</div><div class="line">   "properties" : &#123;</div><div class="line">    "speaker" : &#123;"type": "string", "index" : "not_analyzed" &#125;,</div><div class="line">    "play_name" : &#123;"type": "string", "index" : "not_analyzed" &#125;,</div><div class="line">    "line_id" : &#123; "type" : "integer" &#125;,</div><div class="line">    "speech_number" : &#123; "type" : "integer" &#125;</div><div class="line">   &#125;</div><div class="line">  &#125;</div><div class="line"> &#125;</div><div class="line">&#125;</div><div class="line">';</div></pre></td></tr></table></figure></p>
+<p>使用Elasticsearch的批量导入API输入数据<br>实际应用中就是用API从别的地方用定义好的索引导入到Elasticsearch<br>例如我最近要做的    <a href="http://blog.csdn.net/fxsdbt520/article/details/53893421" target="_blank" rel="external">HBASE-&gt;Elasticsearch</a> 这个作者的其他文章也有一些值得关注的可以看一下<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">curl --user elastic -XPOST <span class="string">'localhost:9200/shakespeare/_bulk?pretty'</span> --data-binary @shakespeare.json</div></pre></td></tr></table></figure></p>
+<p>使用如下命令验证成功导入<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">curl --user elastic <span class="string">'localhost:9200/_cat/indices?v'</span></div></pre></td></tr></table></figure></p>
+<p>访问Kibana会提示没有索引匹配模式（index pattern）需要定义以便匹配索引</p>
+<p>之后就是图形界面下的操作了 选择之前定义的索引匹配模式 -&gt; discover -&gt; visualize -&gt; dashboard<br>这边需要注意的以及怎么做文档里都有了图形界面也好理解就不再赘述</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;被Kibana的功能深深吸引，试着了解了一下  &lt;a href=&quot;https://www.elastic.co/&quot;&gt;Elasticsearch + Kibana&lt;/a&gt;&lt;br&gt;记录过程，索引备忘&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Study" scheme="https://knightofbatons.github.io/categories/Study/"/>
+    
+    
+      <category term="Elasticsearch" scheme="https://knightofbatons.github.io/tags/Elasticsearch/"/>
+    
+      <category term="Kibana" scheme="https://knightofbatons.github.io/tags/Kibana/"/>
+    
+  </entry>
+  
+</feed>
