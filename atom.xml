@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://knightofbatons.github.io/"/>
-  <updated>2017-04-10T01:15:12.028Z</updated>
+  <updated>2017-06-19T14:17:50.594Z</updated>
   <id>https://knightofbatons.github.io/</id>
   
   <author>
@@ -20,21 +20,24 @@
     <link href="https://knightofbatons.github.io/2017/03/09/Graduation-Project/"/>
     <id>https://knightofbatons.github.io/2017/03/09/Graduation-Project/</id>
     <published>2017-03-09T08:48:00.000Z</published>
-    <updated>2017-04-10T01:15:12.028Z</updated>
+    <updated>2017-06-19T14:17:50.594Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>毕设备忘<br><a id="more"></a></p>
 </blockquote>
-<p>题目暂且定为爬虫软件及定向搜索服务的设计与实现<br>爬虫我是用过的 丢给它链接 可能需要制定过滤规则 定时运行爬取过滤 存储待用<br>定向搜索 搜索的一种吧<br>通过了解 搜索引擎能根据关键字返回结果的背后<br>是 爬虫在互联网中爬取了成千上万的网页 经过了 提取 组织 索引 排序 等等很多复杂的工作 </p>
-<h2 id="解读任务书"><a href="#解读任务书" class="headerlink" title="解读任务书"></a>解读任务书</h2><h3 id="主要内容以及目标"><a href="#主要内容以及目标" class="headerlink" title="主要内容以及目标"></a>主要内容以及目标</h3><p>“由于互联网中的包含海量的信息资源，用户每次检索获取的信息量过于庞杂，很难在大量的检索结果中抽取出我们真正需要的信息。<br>本系统设计的目的就是可以根据特定用户的定制检索要求，为用户定期提供符合用户需要的搜索服务，并将搜索结果推送给用户。<br>为此，我们需要利用爬虫软件在互联网上抓取数据，并根据不同用户的需要对抓取到的结果进行分析、整理后保存在特定的数据库中，再根据不同用户的不同需要，定时为用户提供推送服务。<br>通过实际项目的开发，锻炼学生的科研开发能力和工程实践能力，以便能够提升就业竞争力和实际工作能力。”</p>
-<h3 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h3><p>我针对这个需求进行了一系列检索之后 -&gt; <a href="https://zh.wikipedia.org/wiki/RSS" target="_blank" rel="external">RSS</a> 被我“发现”了<br>定阅自己想看的！这不就是我需要的技术么？<br>依稀记得当年 Google Reader 要停止服务的时候 “Google公司门前「万人签名拯救Google Reader」” 这样的标题似乎引起过我的注意<br>Google Reader 基础上就是一个RSS阅读器 那么它<a href="https://www.williamlong.info/archives/3406.html" target="_blank" rel="external">为什么被停用了？</a></p>
-<p>可见类似的需求还是有的，但也不会是非常大众的，这是当年。<br>从Google Reader 关闭的2013年到现在 互联网的蓬勃发展有目共睹 用户需求与应用技术日新月异 更别说是4年之久了<br>在这些年中 智能手机广泛普及 各种应用层出不穷代代更迭 我们的阅读与浏览有了怎么样的改变？<br>毫无疑问 在这个”信息时代” 数据的爆炸是存在的，但数据不等同于信息！数据是物理的而信息是释义的<br>把所有数据都当作信息来试图丢给人来理解肯定是不行的 会造成<a href="http://www.bengu.cn/homepage/paper/paper75.htm" target="_blank" rel="external">信息过载</a></p>
-<p>人人网 QQ空间 在过去的几年里曾经如如中天 如今人们却纷纷<a href="https://www.tmtpost.com/94396.html" target="_blank" rel="external">逃离</a> 这种现象不一而足<br>究其原因肯定不会是单一的，但肯定有信息中夹杂了越来越多噪音的份————信息不再是信息而更像是数据了。被多次转载的老段子和自己毫无关联的新闻已经淹没了正常需要的东西。</p>
+<p>题目定为爬虫软件及定向搜索服务的设计与实现</p>
+<h2 id="任务书"><a href="#任务书" class="headerlink" title="任务书"></a>任务书</h2><h3 id="主要内容以及目标"><a href="#主要内容以及目标" class="headerlink" title="主要内容以及目标"></a>主要内容以及目标</h3><p>“由于互联网中的包含海量的信息资源，用户每次检索获取的信息量过于庞杂，很难在大量的检索结果中抽取出我们真正需要的信息。<br>本系统设计的目的就是可以根据特定用户的定制检索要求，为用户定期提供符合用户需要的搜索服务，并将搜索结果推送给用户。<br>为此，我们需要利用爬虫软件在互联网上抓取数据，并根据不同用户的需要对抓取到的结果进行分析、整理后保存在特定的数据库中，再根据不同用户的不同需要，定时为用户提供推送服务。<br>通过实际项目的开发，锻炼学生的科研开发能力和工程实践能力，以便能够提升就业竞争力和实际工作能力。”</p>
+<h3 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h3><p>我针对这个需求进行了一系列检索之后 -&gt; <a href="https://zh.wikipedia.org/wiki/RSS" target="_blank" rel="external">RSS</a> 被我发现了<br>定阅自己想看的！这不就是我需要的技术么？<br>依稀记得当年 Google Reader 要停止服务的时候 “Google公司门前「万人签名拯救Google Reader」” 这样的标题似乎引起过我的注意<br>Google Reader 基础上就是一个RSS阅读器 那么它<a href="https://www.williamlong.info/archives/3406.html" target="_blank" rel="external">为什么被停用了？</a></p>
+<p>可见类似的需求还是有的，但也不会是非常大众的，这是当年。<br>从Google Reader 关闭的2013年到现在 互联网的蓬勃发展有目共睹 用户需求与应用技术日新月异 更别说是4年之久了<br>在这些年中 智能手机广泛普及 各种应用层出不穷代代更迭 我们的阅读与浏览有了怎么样的改变？<br>毫无疑问 在这个”信息时代” 数据的爆炸是存在的，但数据不等同于信息，数据是物理的而信息是释义的。<br>把所有数据都当作信息来试图丢给人来理解肯定是不行的 会造成<a href="http://www.bengu.cn/homepage/paper/paper75.htm" target="_blank" rel="external">信息过载</a></p>
+<p>人人网 QQ空间 在过去的几年里曾经如如中天 如今人们却纷纷<a href="https://www.tmtpost.com/94396.html" target="_blank" rel="external">逃离</a> 这种现象不一而足<br>究其原因肯定不会是单一的，但肯定有信息中夹杂了越来越多噪音的份————信息不再是信息而更像是数据了，被多次转载的老段子和自己毫无关联的新闻已经淹没了正常需要的东西。</p>
 <p>就我来说，打开浏览器 我有收藏夹 里面是一些优秀的网站满足我各种各样的需求 交流社区 视频&amp;直播网站 wiki 博客 学习 乃至 成人内容<br>需要搜索的时候 比较新的技术类我会用Google 而百度俨然已经成为了贴吧经验搜索专用<br>bing由于其反馈的信息较少把我的注意力一再吸引到别的地方成为日常所用，然而陌生的词汇一带二二带三依然难以避免。<br>我很少的用手机(认识我的人经常说通过微信甚至手机找到我要靠运气~笑)，几乎不发也很少看朋友圈。<br>我没感觉到信息过载，因为我合理的手动过滤掉了不需要的。<br>可这就像RSS订阅源一样对用户有很高的要求，需要自己去一一发现甄别哪些是自己需要的，如果设置不当，RSS订阅也会演变成消灭未读的战争。</p>
-<h3 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h3><p>我的水平去做一个类似搜索引擎的爬取互联网上成千上万的网页来达成目标肯定是不现实的，也许爬取RSS源是更正确的选择。<br>让程序处理数据把信息传递给人！</p>
+<h3 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h3><p>我的水平去做一个类似搜索引擎的爬取互联网上成千上万的网页来达成目标肯定是不现实的，也许爬取RSS源是更正确的选择。</p>
 <h3 id="初步设想"><a href="#初步设想" class="headerlink" title="初步设想"></a>初步设想</h3><p>也许用 Spring boot 构建Web页面<br>在Web页面可以选择提供的RSS源 可以发送到邮箱供查看<br>这俨然成了一个RSS阅读器？<br>这个想法和具体实现或许有许多问题啊，不过没有问题解决就没有学习的动力啊···</p>
 <h2 id="远方的灯塔"><a href="#远方的灯塔" class="headerlink" title="远方的灯塔"></a>远方的灯塔</h2><p>有了初步设想之后总感觉怪怪的<br>看了<a href="http://3elife.baijia.baidu.com/article/760734?qq-pf-to=pcqq.c2c" target="_blank" rel="external">当谈到RSS的现状 为什么只有一声叹息</a> 还有<a href="https://www.zhihu.com/question/28861876" target="_blank" rel="external">为什么RSS存在，还会出现今日头条？</a>更加恍惚了<br>这时候一篇在Github Pages的文章<a href="https://everettjf.github.io/2016/05/13/how-to-write-a-simple-feed-reader" target="_blank" rel="external">How to write an RSS reader, readme for 番茄阅读</a>被我发现了<br>文章的作者<a href="https://everettjf.github.io/" target="_blank" rel="external">everettjf</a> 制作了他的app <a href="https://itunes.apple.com/us/app/id1111654149" target="_blank" rel="external">番茄阅读</a><br>我也许大体上知道我想要做个什么出来了。</p>
-<p>## </p>
+<h2 id="最后的结果"><a href="#最后的结果" class="headerlink" title="最后的结果"></a>最后的结果</h2><p>已然到了六月中旬毕业的日子，毕设答辩已经过去，回来简单补充一下。</p>
+<h3 id="内容收集"><a href="#内容收集" class="headerlink" title="内容收集"></a>内容收集</h3><p>1.写了一个谷歌浏览器插件，实际上就是一个表单，用来添加 RSS 源。<br>2.用 Anaconda 3 装的爬虫环境，用它提供的 Jupyter Notebook 写了几个定向爬虫</p>
+<h3 id="内容处理"><a href="#内容处理" class="headerlink" title="内容处理"></a>内容处理</h3><p>1.爬虫爬到的东西上传到了 GitHub Pages（当静态内容服务器用） 上，提供访问。<br>2.爬虫爬到的东西还丢到了 ElasticSearch 里提供全文检索，其实这个有很多检索功能不过只用了这个。<br>3.RSS 内容的检索我用三个字段：RSS源名称，在添加的时候人为加入的RSS源描述、TextRank算法根据最近内容提取出的关键词，建立索引提供全文检索</p>
+<h3 id="内容展现"><a href="#内容展现" class="headerlink" title="内容展现"></a>内容展现</h3><p>1.SpringBoot框架，各种功能对应各种 RESTful API<br>2.前端用 Angular JS 前端只负责请求后端提供的 Restful API，前后端用 JSON 做数据交互<br>3.一些简单的邮件推送</p>
 ]]></content>
     
     <summary type="html">
@@ -102,16 +105,15 @@
     <link href="https://knightofbatons.github.io/2017/01/05/java-lang-NoClassDefFoundError/"/>
     <id>https://knightofbatons.github.io/2017/01/05/java-lang-NoClassDefFoundError/</id>
     <published>2017-01-04T16:01:05.000Z</published>
-    <updated>2017-03-09T09:03:49.649Z</updated>
+    <updated>2017-06-16T01:39:31.449Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>Hadoop jar 运行Jar包的时候出现的错误<br><a id="more"></a></p>
 </blockquote>
-<p>今天照着<a href="http://blog.csdn.net/fxsdbt520/article/details/53893421" target="_blank" rel="external">之前提到过的博客</a>尝试了一下HBASE-&gt;ElasticSearch<br>用到了TableMapper，结果 java.lang.NoClassDefFoundError<br>原因大概是编译的时候有 但运行的时候没找到</p>
-<h4 id="错误原因"><a href="#错误原因" class="headerlink" title="错误原因"></a>错误原因</h4><p>hadoop-env.sh<br>classpath设置有问题，导致找不到jar <a href="http://pwg17.github.io/2014/09/24/hadoop-NoClassDefFoundError/" target="_blank" rel="external">这里</a>说的比较清楚</p>
+<p>今天照着<a href="http://blog.csdn.net/fxsdbt520/article/details/53893421" target="_blank" rel="external">这个博客</a>尝试了一下HBASE-&gt;ElasticSearch<br>用到了TableMapper，结果 java.lang.NoClassDefFoundError<br>意思大概是编译的时候有 但运行的时候没找到</p>
+<h4 id="错误原因"><a href="#错误原因" class="headerlink" title="错误原因"></a>错误原因</h4><p>hadoop-env.sh<br>classpath设置有问题，导致找不到jar<a href="http://pwg17.github.io/2014/09/24/hadoop-NoClassDefFoundError/" target="_blank" rel="external">这里</a>说的比较清楚</p>
 <h4 id="解决方式"><a href="#解决方式" class="headerlink" title="解决方式"></a>解决方式</h4><p>比如我加上Hbase的Jar包<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">for</span> f <span class="keyword">in</span> /home/hbase-1.2.4/lib/*.jar; <span class="keyword">do</span></div><div class="line">HADOOP_CLASSPATH=<span class="variable">$&#123;HADOOP_CLASSPATH&#125;</span>:<span class="variable">$f</span></div><div class="line"><span class="keyword">done</span></div></pre></td></tr></table></figure></p>
 <p>问题解决了</p>
-<h3 id="夜空"><a href="#夜空" class="headerlink" title="夜空*"></a>夜空*</h3><p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="https://music.daoapp.io/iframe?song=22691514&qssl=1&qlrc=0&qnarrow=0&autoplay=1"></iframe><br>今天这 HBASE-&gt;ElasticSearch 真像这嗓音一样有毒<br>很多事情都不像最初想的那么简单啊，都快习惯了</p>
 ]]></content>
     
     <summary type="html">
@@ -135,25 +137,26 @@
     <link href="https://knightofbatons.github.io/2017/01/03/MBA/"/>
     <id>https://knightofbatons.github.io/2017/01/03/MBA/</id>
     <published>2017-01-03T03:18:28.000Z</published>
-    <updated>2017-06-14T09:01:29.120Z</updated>
+    <updated>2017-06-16T01:46:50.548Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
-<p>揭开购物篮分析的神秘面纱 阅读借来的动物书 备忘笔记<br><a id="more"></a></p>
+<p>揭开购物篮分析的神秘面纱，阅读借来的动物书，备忘。<br><a id="more"></a></p>
 </blockquote>
-<p>在地铁上看《瓦尔登湖》<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">一个月过后两个孩子谁将获得最大的发展：一个挖掘矿物，通过冶炼，为自己制造了一把折叠刀，</div><div class="line">其间，为了实现这个目的尽可能进行了大量的阅读；另一位则置身于学院，参加了关于炼金术的讲座，</div><div class="line">后来从他父亲那里接受了一把落杰斯特折叠刀。哪一位又最有可能被刀子割破手指呢？</div></pre></td></tr></table></figure></p>
+<p>在地铁上看《瓦尔登湖》</p>
+<p>“一个月过后两个孩子谁将获得最大的发展：一个挖掘矿物，通过冶炼，为自己制造了一把折叠刀，<br>其间，为了实现这个目的尽可能进行了大量的阅读；另一位则置身于学院，参加了关于炼金术的讲座，<br>后来从他父亲那里接受了一把落杰斯特折叠刀。哪一位又最有可能被刀子割破手指呢？”</p>
 <p>这本书于我很神奇的地方就是总能让我停下读它，激发我去做一些别的什么<br>于是我在地铁上读了从那里借来的，在家没怎么看的动物书《数据算法》<br>人的记忆曲线陡的吓人，到学校就着手记录了一下最近正好也能用上的样子。</p>
 <h2 id="MBA目标"><a href="#MBA目标" class="headerlink" title="MBA目标"></a>MBA目标</h2><p>有五个商品<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;A,B,C,D,E&#125;</div></pre></td></tr></table></figure></p>
-<p>对应6个交易（在电商中可以通过收集交易记录的日志获取）<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">Transaction 1 ：A,C</div><div class="line">Transaction 2 ：B,D</div><div class="line">Transaction 3 ：A,C,E</div><div class="line">Transaction 4 ：C,E</div><div class="line">Transaction 5 ：A,B,E</div><div class="line">Transaction 6 ：B,E</div></pre></td></tr></table></figure></p>
-<p>目标为构建项集 F1 和 F2<br>例子中构建F1和F2所用最小支持度为2 所以去除了 支持度为1的[D,1]<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">F1 = &#123;[C,3],[A,3],[B,3],[E,4]&#125;</div><div class="line">F1 = &#123;[&lt;A,C&gt;,2],[&lt;C,E&gt;,2],[&lt;A,E&gt;,2],[&lt;B,E&gt;,2]&#125;</div></pre></td></tr></table></figure></p>
+<p>对应6个交易（可以通过交易记录获取）<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">Transaction 1 ：A,C</div><div class="line">Transaction 2 ：B,D</div><div class="line">Transaction 3 ：A,C,E</div><div class="line">Transaction 4 ：C,E</div><div class="line">Transaction 5 ：A,B,E</div><div class="line">Transaction 6 ：B,E</div></pre></td></tr></table></figure></p>
+<p>目标为构建项集 F1 和 F2<br>例子中构建F1和F2所用最小支持度为2 所以去除了 支持度为1的[D,1]<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">F1 = &#123;[C,3],[A,3],[B,3],[E,4]&#125;</div><div class="line">F2 = &#123;[&lt;A,C&gt;,2],[&lt;C,E&gt;,2],[&lt;A,E&gt;,2],[&lt;B,E&gt;,2]&#125;</div></pre></td></tr></table></figure></p>
 <p>项集F1和F2可以生成交易的<a href="http://www.bing.com/knows/search?q=%E5%85%B3%E8%81%94%E8%A7%84%E5%88%99&amp;mkt=zh-cn&amp;FORM=BKACAI" target="_blank" rel="external">关联规则</a><br>数据挖掘中，关联规则有两个度量标准支持度 Support 置信度 Confidence <a href="http://www.cnblogs.com/bobsoft/articles/2714561.html" target="_blank" rel="external">解释：博客园</a> <a href="http://nwsuafer.blog.163.com/blog/static/18359836120106130556633/" target="_blank" rel="external">解释：网易博客</a></p>
-<h3 id="项集可以解答的问题"><a href="#项集可以解答的问题" class="headerlink" title="项集可以解答的问题"></a>项集可以解答的问题</h3><p>哪些商品会被一起购买？<br>商品如何邻近放置？（在电商中就是商品目录如何设置）<br>等等</p>
+<h3 id="项集可以解答的问题"><a href="#项集可以解答的问题" class="headerlink" title="项集可以解答的问题"></a>项集可以解答的问题</h3><p>哪些商品会被一起购买？<br>商品如何邻近放置？<br>等等</p>
 <h3 id="使用MapReduce的MBA"><a href="#使用MapReduce的MBA" class="headerlink" title="使用MapReduce的MBA"></a>使用MapReduce的MBA</h3><p>我们收集到这样的信息<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">Transaction 1 ：蛋糕，冰淇淋，咖啡，苹果</div><div class="line">Transaction 2 ：鸡肉，披萨，咖啡，面包</div><div class="line">Transaction 3 ：书包，小苏打，刮胡刀，蛋糕，百事可乐</div><div class="line">Transaction 4 ：书包，象棋，打印纸，牛奶</div><div class="line">等等</div></pre></td></tr></table></figure></p>
 <p>我们需要的输出<br>二阶<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">(蛋糕，咖啡) 9709</div><div class="line">(小苏打，鸡蛋) 7524</div><div class="line">(书包，牛奶) 6666</div><div class="line">(象棋，苹果) 2333</div><div class="line">等等</div></pre></td></tr></table></figure></p>
 <p>三阶<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">(蛋糕，咖啡，鸡蛋) 9709</div><div class="line">(小苏打，鸡蛋，书包) 7524</div><div class="line">(书包，牛奶，象棋) 6666</div><div class="line">(象棋，苹果，鸡蛋) 2333</div><div class="line">等等</div></pre></td></tr></table></figure></p>
-<h4 id="其中列出所有两两三三组合的问题"><a href="#其中列出所有两两三三组合的问题" class="headerlink" title="其中列出所有两两三三组合的问题"></a>其中列出所有两两三三组合的问题</h4><p>毫无疑问的需要给组合计数，首先需要分出有哪些不同的组合，这是一个经典数学问题了<br>这里需要注意的是<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Transaction 1 ：蛋糕，冰淇淋，咖啡</div><div class="line">Transaction 2 ：冰淇淋，咖啡，蛋糕</div></pre></td></tr></table></figure></p>
+<h4 id="其中列出所有两两三三组合的问题"><a href="#其中列出所有两两三三组合的问题" class="headerlink" title="其中列出所有两两三三组合的问题"></a>其中列出所有两两三三组合的问题</h4><p>需要给组合计数，首先需要分出有哪些不同的组合，这是一个经典数学问题了<br>这里需要注意的是<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Transaction 1 ：蛋糕，冰淇淋，咖啡</div><div class="line">Transaction 2 ：冰淇淋，咖啡，蛋糕</div></pre></td></tr></table></figure></p>
 <p>这种不同记录顺序的相同交易会被计算出<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&#123;[(蛋糕,冰淇凌)，1],[(蛋糕,咖啡)，1],[(冰淇凌,咖啡)，1]&#125;</div><div class="line">&#123;[(冰淇凌,咖啡)，1],[(冰淇凌,蛋糕)，1],[(咖啡,蛋糕)，1]&#125;</div></pre></td></tr></table></figure></p>
 <p>这样是不对的，有一些相同的KEY被区别开了，所以需要按统一规则排序再进行计算就不会出现不同的KEY其实是一件事了</p>
-<h4 id="尝试编写"><a href="#尝试编写" class="headerlink" title="尝试编写"></a>尝试编写</h4><p>书上的代码比较简洁（缺东西），我照着实现了一下，具体用的话改改输入输出应该就可以了（现在是从HDFS输入和输出）<br><a href="https://github.com/knightofbatons/HadoopMBATest.git" target="_blank" rel="external">GitHub</a><br>输入<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">crackers,bread,banana</div><div class="line">crackers,coke,butter,coffee</div><div class="line">crackers,bread</div><div class="line">bread,crackers</div><div class="line">crackers,bread,coffee</div><div class="line">butter,coke</div><div class="line">butter,coke,bread,crackers</div></pre></td></tr></table></figure></p>
+<h4 id="尝试编写"><a href="#尝试编写" class="headerlink" title="尝试编写"></a>尝试编写</h4><p>书上的代码比较简洁（缺点东西），我照着实现了一下，具体用的话改改输入输出应该就可以了（现在是从HDFS输入和输出）<br><a href="https://github.com/knightofbatons/HadoopMBATest.git" target="_blank" rel="external">GitHub</a><br>输入<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">crackers,bread,banana</div><div class="line">crackers,coke,butter,coffee</div><div class="line">crackers,bread</div><div class="line">bread,crackers</div><div class="line">crackers,bread,coffee</div><div class="line">butter,coke</div><div class="line">butter,coke,bread,crackers</div></pre></td></tr></table></figure></p>
 <p>运行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hadoop jar /home/HadoopTest.jar MBADriver /MBA/input /MBA/output 2</div></pre></td></tr></table></figure></p>
 <p>输出<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">[banana, bread]	1</div><div class="line">[banana, crackers]	1</div><div class="line">[bread, butter]	1</div><div class="line">[bread, coffee]	1</div><div class="line">[bread, coke]	1</div><div class="line">[bread, crackers]	5</div><div class="line">[butter, coffee]	1</div><div class="line">[butter, coke]	3</div><div class="line">[butter, crackers]	2</div><div class="line">[coffee, coke]	1</div><div class="line">[coffee, crackers]	2</div><div class="line">[coke, crackers]	2</div></pre></td></tr></table></figure></p>
 ]]></content>
@@ -161,7 +164,7 @@
     <summary type="html">
     
       &lt;blockquote&gt;
-&lt;p&gt;揭开购物篮分析的神秘面纱 阅读借来的动物书 备忘笔记&lt;br&gt;
+&lt;p&gt;揭开购物篮分析的神秘面纱，阅读借来的动物书，备忘。&lt;br&gt;
     
     </summary>
     
@@ -181,32 +184,32 @@
     <link href="https://knightofbatons.github.io/2017/01/01/Elasticsearch-Kibana/"/>
     <id>https://knightofbatons.github.io/2017/01/01/Elasticsearch-Kibana/</id>
     <published>2017-01-01T14:27:47.000Z</published>
-    <updated>2017-03-09T09:07:15.099Z</updated>
+    <updated>2017-06-16T01:30:26.195Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
-<p>被Kibana的功能深深吸引，试着了解了一下  <a href="https://www.elastic.co/" target="_blank" rel="external">Elasticsearch + Kibana</a><br>记录过程，索引备忘<br><a id="more"></a></p>
+<p>被Kibana的外表深深吸引，试着了解了一下  <a href="https://www.elastic.co/" target="_blank" rel="external">Elasticsearch + Kibana</a><br>记录过程，备忘。<br><a id="more"></a></p>
 </blockquote>
-<h2 id="马上开始"><a href="#马上开始" class="headerlink" title="马上开始"></a>马上开始</h2><h2 id="安装-Elasticsearch-Kibana-X-Pack"><a href="#安装-Elasticsearch-Kibana-X-Pack" class="headerlink" title="安装 Elasticsearch + Kibana + X-Pack"></a>安装 Elasticsearch + Kibana + X-Pack</h2><p>官网提供了   <a href="https://www.elastic.co/start" target="_blank" rel="external">简洁的安装指导</a></p>
-<h3 id="其中可能会遇到的坑"><a href="#其中可能会遇到的坑" class="headerlink" title="其中可能会遇到的坑"></a>其中可能会遇到的坑</h3><p>因为安全方面的考虑这些组件默认只能在非ROOT用户下开启，ROOT用户开启会被拒绝并报错<br>对于我只有ROOT用户的测试环境创建一个用户来使用就好了<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">useradd 用户</div><div class="line">passwd 密码</div><div class="line">chown -R 用户 /那些组件的目录</div></pre></td></tr></table></figure></p>
-<p>官网教程里打开Kibana的地址是<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">http://localhost:5601</div></pre></td></tr></table></figure></p>
-<p>当我们需要在非本机访问时（例如我在Linux虚拟机下安装需要在Win下访问）<br>需要修改配置文件 /KIBANA_HOME/config/kibana.yml 中的 server.host<br>因为默认为回环地址不允许远程用户访问</p>
+<h2 id="马上开始"><a href="#马上开始" class="headerlink" title="马上开始"></a>马上开始</h2><h2 id="安装-Elasticsearch-Kibana-X-Pack"><a href="#安装-Elasticsearch-Kibana-X-Pack" class="headerlink" title="安装 Elasticsearch + Kibana (+ X-Pack)"></a>安装 Elasticsearch + Kibana (+ X-Pack)</h2><p>官网提供了   <a href="https://www.elastic.co/start" target="_blank" rel="external">简洁的安装指导</a></p>
+<h3 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h3><p>因为安全方面的考虑这些组件默认只能在非ROOT用户下开启，ROOT用户开启会被拒绝并报错<br>对于我只有ROOT用户的测试环境创建一个用户来使用就好了<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">useradd 用户</div><div class="line">passwd 密码</div><div class="line">chown -R 用户 /那些组件的目录</div></pre></td></tr></table></figure></p>
+<p>打开Kibana的地址是<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">http://localhost:5601</div></pre></td></tr></table></figure></p>
+<p>但是当我们需要在非本机访问时（例如我在Linux虚拟机下安装需要在Win下访问）<br>需要修改配置文件 /KIBANA_HOME/config/kibana.yml 中的 server.host<br>因为默认为回环地址，不允许远程用户访问</p>
 <p>我修改为<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">server.host: 192.168.231.233</div></pre></td></tr></table></figure></p>
 <p>修改后的远程访问地址为<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">http://192.168.231.233:5601</div></pre></td></tr></table></figure></p>
-<h2 id="快速上手"><a href="#快速上手" class="headerlink" title="快速上手"></a>快速上手</h2><p>跟着官网的小例子   <a href="https://www.elastic.co/guide/en/kibana/current/getting-started.html" target="_blank" rel="external">Getting Started</a>  了解一下 Elasticsearch + Kibana 的流程<br>同时有中文转述在这里  <a href="http://blog.csdn.net/ming_311/article/details/50619859" target="_blank" rel="external">Kibana基本使用</a>  是基本一样的内容<br>里面用到的数据文件都有提供下载</p>
-<h3 id="其中可能会遇到的坑-1"><a href="#其中可能会遇到的坑-1" class="headerlink" title="其中可能会遇到的坑"></a>其中可能会遇到的坑</h3><p>官网教程里curl直接用例如<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">curl -XPUT</div></pre></td></tr></table></figure></p>
-<p>可是咱们安装了 X-Pack 是有安全防护的需要用户名和密码才能操作<br>安装完默认为 Username: elastic Password: changeme 可以修改<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">curl --user elastic -XPUT</div></pre></td></tr></table></figure></p>
+<h2 id="马上开始-1"><a href="#马上开始-1" class="headerlink" title="马上开始"></a>马上开始</h2><p>跟着官网的小例子   <a href="https://www.elastic.co/guide/en/kibana/current/getting-started.html" target="_blank" rel="external">Getting Started</a>  了解一下 Elasticsearch + Kibana 的流程<br>同时有中文转述在这里  <a href="http://blog.csdn.net/ming_311/article/details/50619859" target="_blank" rel="external">Kibana基本使用</a>  是基本一样的内容<br>里面用到的数据文件都有提供下载</p>
+<h3 id="遇到的问题-1"><a href="#遇到的问题-1" class="headerlink" title="遇到的问题"></a>遇到的问题</h3><p>官网教程里curl直接用例如<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">curl -XPUT</div></pre></td></tr></table></figure></p>
+<p>可是安装了 X-Pack 后是有安全防护的需要用户名和密码才能操作<br>安装完默认为 Username: elastic Password: changeme 可以修改<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">curl --user elastic -XPUT</div></pre></td></tr></table></figure></p>
 <p>之后按提示输入密码就可以正常使用curl了</p>
-<h3 id="简例出一个流程"><a href="#简例出一个流程" class="headerlink" title="简例出一个流程"></a>简例出一个流程</h3><p>为莎士比亚数据集建立一个索引（index）<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">curl --user elastic -XPUT http://localhost:9200/shakespeare <span class="_">-d</span> <span class="string">'</span></div><div class="line">&#123;</div><div class="line"> "mappings" : &#123;</div><div class="line">  "_default_" : &#123;</div><div class="line">   "properties" : &#123;</div><div class="line">    "speaker" : &#123;"type": "string", "index" : "not_analyzed" &#125;,</div><div class="line">    "play_name" : &#123;"type": "string", "index" : "not_analyzed" &#125;,</div><div class="line">    "line_id" : &#123; "type" : "integer" &#125;,</div><div class="line">    "speech_number" : &#123; "type" : "integer" &#125;</div><div class="line">   &#125;</div><div class="line">  &#125;</div><div class="line"> &#125;</div><div class="line">&#125;</div><div class="line">';</div></pre></td></tr></table></figure></p>
+<h2 id="简例出一个流程"><a href="#简例出一个流程" class="headerlink" title="简例出一个流程"></a>简例出一个流程</h2><p>为莎士比亚数据集建立一个索引（index）<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">curl --user elastic -XPUT http://localhost:9200/shakespeare <span class="_">-d</span> <span class="string">'</span></div><div class="line">&#123;</div><div class="line"> "mappings" : &#123;</div><div class="line">  "_default_" : &#123;</div><div class="line">   "properties" : &#123;</div><div class="line">    "speaker" : &#123;"type": "string", "index" : "not_analyzed" &#125;,</div><div class="line">    "play_name" : &#123;"type": "string", "index" : "not_analyzed" &#125;,</div><div class="line">    "line_id" : &#123; "type" : "integer" &#125;,</div><div class="line">    "speech_number" : &#123; "type" : "integer" &#125;</div><div class="line">   &#125;</div><div class="line">  &#125;</div><div class="line"> &#125;</div><div class="line">&#125;</div><div class="line">';</div></pre></td></tr></table></figure></p>
 <p>使用Elasticsearch的批量导入API输入数据<br>实际应用中就是用API从别的地方用定义好的索引导入到Elasticsearch<br>例如我最近要做的    <a href="http://blog.csdn.net/fxsdbt520/article/details/53893421" target="_blank" rel="external">HBASE-&gt;Elasticsearch</a> 这个作者的其他文章也有一些值得关注的可以看一下<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">curl --user elastic -XPOST <span class="string">'localhost:9200/shakespeare/_bulk?pretty'</span> --data-binary @shakespeare.json</div></pre></td></tr></table></figure></p>
 <p>使用如下命令验证成功导入<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">curl --user elastic <span class="string">'localhost:9200/_cat/indices?v'</span></div></pre></td></tr></table></figure></p>
-<p>访问Kibana会提示没有索引匹配模式（index pattern）需要定义以便匹配索引</p>
-<p>之后就是图形界面下的操作了 选择之前定义的索引匹配模式 -&gt; discover -&gt; visualize -&gt; dashboard<br>这边需要注意的以及怎么做文档里都有了图形界面也好理解就不再赘述</p>
+<p>访问Kibana会提示没有索引匹配模式（index pattern）需要定义以便匹配索引<br>之后就是图形界面下的操作了 选择之前定义的索引匹配模式 -&gt; discover -&gt; visualize -&gt; dashboard<br>这边需要注意的以及怎么做文档里都有了图形界面也好理解</p>
+<h3 id="遇到的问题-2"><a href="#遇到的问题-2" class="headerlink" title="遇到的问题"></a>遇到的问题</h3><p>需要注意_bulk接口的    <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-bulk.html" target="_blank" rel="external">使用方式</a><br>例子里给的数据文件都是已经符合接口要求的 newline delimited JSON (NDJSON)<br>自己在看完例子马上用自己的数据进行一些尝试时可能会忘了这个问题</p>
 ]]></content>
     
     <summary type="html">
     
       &lt;blockquote&gt;
-&lt;p&gt;被Kibana的功能深深吸引，试着了解了一下  &lt;a href=&quot;https://www.elastic.co/&quot;&gt;Elasticsearch + Kibana&lt;/a&gt;&lt;br&gt;记录过程，索引备忘&lt;br&gt;
+&lt;p&gt;被Kibana的外表深深吸引，试着了解了一下  &lt;a href=&quot;https://www.elastic.co/&quot;&gt;Elasticsearch + Kibana&lt;/a&gt;&lt;br&gt;记录过程，备忘。&lt;br&gt;
     
     </summary>
     
