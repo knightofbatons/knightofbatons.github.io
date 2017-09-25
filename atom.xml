@@ -125,9 +125,9 @@
       <category term="Experience" scheme="https://knightofbatons.github.io/categories/Experience/"/>
     
     
-      <category term="Java" scheme="https://knightofbatons.github.io/tags/Java/"/>
-    
       <category term="Hadoop" scheme="https://knightofbatons.github.io/tags/Hadoop/"/>
+    
+      <category term="Java" scheme="https://knightofbatons.github.io/tags/Java/"/>
     
   </entry>
   
@@ -170,11 +170,11 @@
       <category term="Study" scheme="https://knightofbatons.github.io/categories/Study/"/>
     
     
-      <category term="Hadoop" scheme="https://knightofbatons.github.io/tags/Hadoop/"/>
-    
       <category term="Market Basket Analysis" scheme="https://knightofbatons.github.io/tags/Market-Basket-Analysis/"/>
     
       <category term="MapReduce" scheme="https://knightofbatons.github.io/tags/MapReduce/"/>
+    
+      <category term="Hadoop" scheme="https://knightofbatons.github.io/tags/Hadoop/"/>
     
   </entry>
   
