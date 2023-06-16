@@ -5,7 +5,7 @@ import sidebar from "./sidebar.js";
 const MR_HOPE_AVATAR =
   '<svg t="1686829879525" class="icon" viewBox="0 0 1035 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="12510" width="64" height="64"><path d="M424 291.84L384 250.88v636.64l31.2 31.2 7.04 7.04a3.84 3.84 0 0 0 2.56-3.52V306.72zM352.32 220l-40.8-40.8v636.48l40.8 40.96V220zM242.24 110.08a3.84 3.84 0 0 0-2.24 3.52v630.4l40.8 40.8V148.32l-31.36-31.2zM753.12 345.6a3.52 3.52 0 0 0-4.96 0L579.68 514.08a3.52 3.52 0 0 0 0 4.96l23.84 23.84 137.76 137.76a3.52 3.52 0 0 0 4.8 0l24-24a3.52 3.52 0 0 0 0-4.8l-135.68-135.68 141.92-141.92a3.52 3.52 0 0 0 0-4.96z" fill="#B40A1F" p-id="12511"></path><path d="M519.84 516.32l199.2-199.2a4 4 0 0 0 0-5.6L695.68 288a4 4 0 0 0-5.6 0L464.8 513.44a4 4 0 0 0 0 5.6l23.2 23.36 195.84 195.68a4 4 0 0 0 5.6 0l23.36-23.36a4 4 0 0 0 0-5.6z" fill="#B40A1F" p-id="12512"></path></svg>'
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://blog.nerv.love",
 
   author: {
     name: "KnightOfBatons",
@@ -17,6 +17,8 @@ export default hopeTheme({
   logo: "/logo.svg",
 
   repo: "knightofbatons/knightofbatons.github.io",
+  // 是否在导航栏内显示仓库链接，默认为 `true`
+  repoDisplay: false,
 
   docsDir: "src",
 
@@ -29,9 +31,8 @@ export default hopeTheme({
   footer: "默认页脚",
 
   displayFooter: true,
-
   blog: {
-    description: "一个大自然的搬运工",
+    description: "正在沉迷学习",
     intro: "/intro.html",
     medias: {
       // Baidu: "https://example.com",
@@ -82,7 +83,6 @@ export default hopeTheme({
 
   plugins: {
     blog: true,
-
     comment: {
       // You should generate and use your own comment service
       provider: "Waline",
@@ -129,7 +129,7 @@ export default hopeTheme({
       vPre: true,
       vuePlayground: true,
     },
-
+    
     // uncomment these if you want a PWA
     // pwa: {
     //   favicon: "/favicon.ico",
