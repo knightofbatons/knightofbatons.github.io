@@ -28,7 +28,7 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "默认页脚",
+  footer: "这是一个页脚 ᕕ( ᐛ )ᕗ",
 
   displayFooter: true,
   blog: {
