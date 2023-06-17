@@ -1,6 +1,7 @@
 ---
 title: SteamDeck
 cover: /assets/blog_images/SteamDeck.jpeg
+date: 2023-01-04
 category:
   - 使用指南
 tag:
