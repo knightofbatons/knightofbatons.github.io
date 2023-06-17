@@ -1,7 +1,6 @@
 ---
 title: SteamDeck
 cover: /assets/blog_images/SteamDeck.jpeg
-date: 2023-01-04
 category:
   - 使用指南
 tag:
@@ -64,7 +63,7 @@ SteamDeck 端未验证的很多游戏其实也可以运行，同时被验证过�
 ### 2.4.文件传输
 
 下面的很多操作需要传输文件到 SteamDeck，小文件同网络无线传输我使用：
-Windows 端安装： [winpinator](https://winpinator.swisz.cz/)
+Windows 端安装 [winpinator](https://winpinator.swisz.cz/)
 SteamDeck 端 Discover 搜索安装 [warpinator](https://github.com/linuxmint/warpinator)
 在同一网络两端都打开软件，配对成功后可以互传文件
 
@@ -98,7 +97,7 @@ YUZU Switch 模拟器 Discover 搜索安装 [yuzu](https://github.com/yuzu-emu/y
 需要注意的是 YUZU 安装后需要添加「Switch 固件」和「key」后才能使用，获取方法查询关键词：YUZU、固件、key、路径 
 固件、Key 需要放的路径在 YUZU 的设置里就可以看到，默认路径需要显示隐藏文件夹方可找到
 
-ROM 下载我使用： [xxxxx520](https://xxxxx520.com/)
+ROM 下载我使用 [xxxxx520](https://xxxxx520.com/)
 
 开模拟器再开游戏麻烦，所以我添加 YUZU 模拟器下的 ROM 到 Steam 直接运行（包含游戏封面），Discover 搜索安装 [SteamRomManager](https://github.com/SteamGridDB/steam-rom-manager)
 
