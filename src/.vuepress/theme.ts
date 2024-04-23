@@ -32,7 +32,7 @@ export default hopeTheme({
 
   displayFooter: true,
   blog: {
-    description: "正在沉迷学习",
+    description: "正在摸鱼🐟",
     intro: "/intro.html",
     medias: {
       // Baidu: "https://example.com",
@@ -41,12 +41,12 @@ export default hopeTheme({
       // Dingding: "https://example.com",
       // Discord: "https://example.com",
       // Dribbble: "https://example.com",
-      Email: "mailto:knightofbatons@hotmail.com",
+      Email: "mailto:knightofbatons@nerv.love",
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
       // Gitee: "https://example.com",
-      GitHub: "https://github.com/knightofbatons",
+      // GitHub: "https://github.com/knightofbatons",
       // Gitlab: "https://example.com",
       // Gmail: "mailto:info@example.com",
       // Instagram: "https://example.com",
