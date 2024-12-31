@@ -296,14 +296,25 @@ BT/PT 下载的本意我理解是：人人为我，我为人人。自己下载�
   - 无新手考核
   - PT 站形式的新探索，从零开始的新架构，希望此站越办越好
 
-请求邀请：目前进了不少小站，公益捐赠得了个青蛙永 V，但没有一个大站，希望有路过的 PT 大佬给我发发大站的邀请，预注册ID：knight，邮箱（Base64 编码）：
+请求邀请：目前进了不少小站，公益捐赠得了个青蛙永 V，但没有一个大站，希望有路过的 PT 大佬给我发发大站的邀请
+
+预注册ID：
 
 ``` text
-a25pZ2h0b2ZiYXRvbnNAaG90bWFpbC5jb20=
+knight
 ```
 
-可点击上方代码块右侧复制按钮，复制后前去[Base64 编码/解码](https://www.toolhelper.cn/EncodeDecode/Base64)进行解码得到邮箱
-需要谷歌邮箱也是这个前缀
+邮箱：
+
+``` text
+knightofbatons@hotmail.com
+```
+
+``` text
+knightofbatons@gmail.com
+```
+
+![PTPP](/assets/blog_images/mac_mini/30-12-2024.jpeg)
 
 ### 4.硬盘盒的选择
 
@@ -334,7 +345,7 @@ a25pZ2h0b2ZiYXRvbnNAaG90bWFpbC5jb20=
 最后纳入我的选择的是：铠侠 SD10 / 致态 Ti7100 ，可惜更便宜的 SD10 截止现在没有 4TB 版本最多到 2TB，而雷电接口支持多 SSD 阵列的设备价格普遍比较离谱
 
 [一个不错的总结供参考](https://tieba.baidu.com/p/9190335174?see_lz=1)
-![SSD 选择](/assets/blog_images/mac_mini/SSD.jpg)
+![SSD](/assets/blog_images/mac_mini/SSD.jpg)
 
 ### 6.电视的选择
 
