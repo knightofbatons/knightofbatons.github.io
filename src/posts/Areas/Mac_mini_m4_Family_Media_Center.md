@@ -223,7 +223,7 @@ Mac mini M4 运行功耗很低，且我的主要用途下基本不会关机，
   - [Homebrew 安装 Nginx](https://formulae.brew.sh/formula/nginx)
   - 一个 HTTP Web 服务器、反向代理服务器、内容缓存、负载均衡器、TCP/UDP 代理服务器和邮件代理服务器
   - 这里主要用于反向代理
-  - 也可以用 docker compose 安装
+  - 也可以用 Docker compose 安装
 
   ``` shell
   # Nginx Docker Compose 示例
@@ -255,7 +255,16 @@ Mac mini M4 运行功耗很低，且我的主要用途下基本不会关机，
     - 进而可以添加到媒体服务器，当然这用法有点绕
       - 可能有更好的解决方案，比如 [CloudDrive](https://www.clouddrive2.com/download.html)
 
-### 3.对 BT/PT 下载的认识
+❤️ 感谢评论区大佬：[Yi](https://yi.gs/) 推荐的两个软件我试了一下也非常好用，详见评论
+
+- [Pearcleaner](https://github.com/alienator88/Pearcleaner)
+  - 一款免费、开源、好用的 Mac 应用程序清理器
+
+- [Dockge](https://github.com/louislam/dockge)
+  - Docker Compose 管理器
+  - 可搭配 OrbStack 使用
+
+## 3.对 BT/PT 下载的认识
 
 BT/PT 下载的本意我理解是：人人为我，我为人人。自己下载的时候别人提供了上传，理所应当的自己也要做种，在别人下载的时候提供上传，这样形成一个良性循环大家都可以有的下，且速度足够高。
 
@@ -306,13 +315,23 @@ BT/PT 下载的本意我理解是：人人为我，我为人人。自己下载�
   - 无新手考核
   - PT 站形式的新探索，从零开始的新架构，希望此站越办越好
 
-请求邀请：目前进了不少小站，公益捐赠得了个青蛙永 V，但没有一个大站，希望有路过的 PT 大佬给我发发大站的邀请
+请求邀请：有路过的 PT 大佬给我发发大站的邀请就太好了
 
-![PTPP 数据统计](/assets/blog_images/mac_mini/30-12-2024.jpeg)
+![PTPP 数据统计](/assets/blog_images/mac_mini/PTPP.jpeg)
 
-感谢大佬发的大站邀请！已注册，怕收到的站太多新手任务做不好就先把邮箱删了
+hotmail:
 
-### 4.硬盘盒的选择
+``` text
+a25pZ2h0b2ZiYXRvbnNAaG90bWFpbC5jb20=
+```
+
+gmail:
+
+``` text
+a25pZ2h0b2ZiYXRvbnNAZ21haWwuY29t
+```
+
+## 4.硬盘盒的选择
 
 - RTL9210/RTL9210b 主控方案
   - 10Gbps 普通硬盘盒，几十块就可以买到不错的
@@ -334,7 +353,7 @@ BT/PT 下载的本意我理解是：人人为我，我为人人。自己下载�
 - JHL7440 + RTL9210/9210b/JMS583 双主控方案
   - 额外加的主控增加了接口的兼容性，也提高了售价，有需求可选
 
-### 5.硬盘的选择
+## 5.硬盘的选择
 
 我的理解：外置硬盘盒里面的硬盘，选个原厂、便宜、无缓存的（发热相对低也更便宜）就可以了
 
@@ -344,7 +363,7 @@ BT/PT 下载的本意我理解是：人人为我，我为人人。自己下载�
 
 ![硬盘选择](/assets/blog_images/mac_mini/SSD.jpg)
 
-### 6.电视的选择
+## 6.电视的选择
 
 - 我的 Mac mini 没直接接电视，鼠标操作真的没法算“家庭”媒体中心，家里除了折腾的我没人愿意用鼠标操作电视
 - 电视选的 LG
@@ -355,11 +374,11 @@ BT/PT 下载的本意我理解是：人人为我，我为人人。自己下载�
     - Netflix 客户端
       - 等等主流流媒体客户端
   - 自带浏览器可以局域网直接访问 MP 和 qB 等软件的 WebUI 控制订阅和下载等操作
-    - LG 的遥控器可以靠指向控制光标 比只能按上下左右的那种遥控器控制网页方便很多 
+    - LG 的遥控器可以靠指向控制光标 比只能按上下左右的那种遥控器控制网页方便很多
 
 ![LG 遥控器指向控制光标示意](/assets/blog_images/mac_mini/LG_TV.gif)
 
-### 7.FTTR 不桥接，公网设置
+## 7.FTTR 不桥接，公网设置
 
 以联通普遍使用的华为 F30/F50 为例
 
