@@ -34,7 +34,7 @@ Mac mini M4 运行功耗很低，且我的主要用途下基本不会关机，
 
 ## 2.软件
 
-![系列软件示意](/assets/blog_images/mac_mini/app.png)
+![流程示意](/assets/blog_images/mac_mini/app.png)
 
 一系列软件 基础配置 和 观影流程 差不多是这样的：
 
@@ -43,7 +43,7 @@ Mac mini M4 运行功耗很低，且我的主要用途下基本不会关机，
   - 控制台/媒体库 规划好文件夹
     - 元数据存储方式使用 NFO 文件就好，不使用自带的刮削功能
   - 控制台/播放/转码 设定硬件加速 等选项
-    - 硬件加速对于在移动端播放的情况是必要的
+    - 硬件加速对在移动端播放是必要的，因为可能需要转码以适应移动端的播放需求
     - 设定备用字体文件路径并启用，解决外挂中文字幕编码显示为方块的问题
   - 控制台/我的插件 安装需要的插件如 DLNA 等
 - 手机/电视/Pad 等需要观影的客户端安装 Jellyfin/Infuse/VidHub 等合适的客户端，并配置服务端为你的 Jellyfin
@@ -177,6 +177,11 @@ Mac mini M4 运行功耗很低，且我的主要用途下基本不会关机，
   - 站点打不开、tracker 连不上等 可能就是因为这个，可以用此软件优选 IP 后添加 Host 解决
   - 顺便推荐 Host 管理工具 [SwitchHosts](https://github.com/oldj/SwitchHosts)
 
+- [PeerBanHelper](https://github.com/PBH-BTN/PeerBanHelper)
+  - 自动封禁不受欢迎、吸血和异常的 BT 客户端，并支持自定义规则
+  - [Docker Compose 安装 PeerBanHelper](https://docs.pbh-btn.com/docs/setup/Docker)
+  - 帮助提高上传质量
+
 - [VERTEX](https://wiki.vertex-app.top/)
   - 适用于 PT 玩家的追剧刷流一体化综合管理工具
   - 主要用于刷流
@@ -242,6 +247,126 @@ Mac mini M4 运行功耗很低，且我的主要用途下基本不会关机，
     environment:   
       - 'TZ=Asia/Shanghai' #设置时区
     restart: unless-stopped #设置ß重启
+  ```
+
+  ``` shell
+  # Nginx 配置文件示例
+  
+  # 共享的SSL配置
+  ssl_certificate /etc/nginx/certs/your.domain.pem;
+  ssl_certificate_key /etc/nginx/certs/your.domain.key;
+  ssl_protocols TLSv1.2 TLSv1.3; # 确保只使用较新的TLS版本
+  ssl_ciphers HIGH:!aNULL:!MD5;
+
+  # 默认服务器块，阻止所有未匹配的请求 (HTTPS)
+  server {
+      listen 8443 ssl default_server;
+      listen [::]:8443 ssl default_server;
+
+      server_name _;
+
+      return 403; # 返回403 Forbidden状态码
+  }
+
+  server {
+      listen 8443 ssl;
+      listen [::]:8443 ssl;
+
+      server_name alive.your.domain;
+
+      location / {
+          return 200 'Hi!\n';
+          add_header Content-Type text/plain;
+      }
+  }
+
+  server {
+      listen 8443 ssl;
+      listen [::]:8443 ssl;
+      
+      http2 on;
+
+      server_name moviepilot.your.domain;
+
+      location / {
+          proxy_pass http://192.168.1.1:3000; # 目标服务的地址
+          proxy_set_header Host $http_host;
+          proxy_set_header X-Real-IP $remote_addr;
+          proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+          proxy_set_header X-Forwarded-Proto $scheme;
+      }
+
+      # MP 企业微信通知相关： 配置可信域名需完成域名归属认证
+      location ~(WW_verify_)*\.(txt)$ {
+      root /var/log/nginx;
+      }
+
+      # MP 企业微信通知相关： 2022年6月后新建的企业微信应用需要有固定公网IP的代理才能接收到消息，代理添加以下代码：
+      # see https://wiki.movie-pilot.org/zh/notification
+      location /cgi-bin/gettoken {
+      proxy_pass https://qyapi.weixin.qq.com;
+      }
+      location /cgi-bin/message/send {
+          proxy_pass https://qyapi.weixin.qq.com;
+      }
+      location  /cgi-bin/menu/create {
+          proxy_pass https://qyapi.weixin.qq.com;
+      }
+  }
+
+  server {
+      listen 8443 ssl;
+      listen [::]:8443 ssl;
+      
+      http2 on;
+
+      server_name qBittorrent.your.domain;
+
+      location / {
+          # see https://github.com/qbittorrent/qBittorrent/wiki/NGINX-Reverse-Proxy-for-Web-UI
+
+          proxy_pass http://192.168.1.1:8088; # 目标服务的地址
+          proxy_http_version 1.1;
+        
+
+          # headers recognized by qBittorrent
+          proxy_set_header   Host               $proxy_host;
+          proxy_set_header   X-Forwarded-For    $proxy_add_x_forwarded_for;
+          proxy_set_header   X-Forwarded-Host   $http_host;
+          proxy_set_header   X-Forwarded-Proto  $scheme;
+
+          # optionally, you can adjust the POST request size limit, to allow adding a lot of torrents at once
+          # client_max_body_size 100M;
+
+          # No longer required since qBittorrent v5.1:
+          # Since v4.2.2, is possible to configure qBittorrent
+          # to set the "Secure" flag for the session cookie automatically.
+          # However, that option does nothing unless using qBittorrent's built-in HTTPS functionality.
+          # For this use case, where qBittorrent itself is using plain HTTP
+          # (and regardless of whether or not the external website uses HTTPS),
+          # the flag must be set here, in the proxy configuration itself.
+          # Note: If this flag is set while the external website uses only HTTP, this will cause
+          # the login mechanism to not work without any apparent errors in console/network resulting in "auth loops".
+          proxy_cookie_path  /                  "/; Secure";
+      }
+  }
+
+  server {
+      listen 8443 ssl;
+      listen [::]:8443 ssl;
+
+      http2 on;
+
+      server_name jellyfin.your.domain;
+
+      location / {
+          proxy_pass http://192.168.1.1:8096; # 替换为目标服务的地址
+          proxy_set_header Host $proxy_host;
+          proxy_set_header X-Real-IP $remote_addr;
+          proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+          proxy_set_header X-Forwarded-Proto $scheme;
+      }
+  }
   ```
 
   - 想图形化界面使用 Nginx 可以看看 [Nginx Proxy Manager](https://nginxproxymanager.com/)
@@ -318,9 +443,12 @@ BT/PT 下载的本意我理解是：人人为我，我为人人。自己下载�
   - 无新手考核
   - PT 站形式的新探索，从零开始的新架构，希望此站越办越好
 
-请求邀请：有路过的 PT 大佬给我发发大站的邀请就太好了
+请求邀请：
+有路过的大佬给我发发大站的邀请就太好了
 
 ![PTPP 数据统计](/assets/blog_images/mac_mini/PTPP.jpeg)
+
+邮箱（Base64 编码）：
 
 hotmail:
 
