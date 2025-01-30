@@ -446,7 +446,7 @@ BT/PT 下载的本意我理解是：人人为我，我为人人。自己下载�
 请求邀请：
 有路过的大佬给我发发大站的邀请就太好了
 
-![PTPP 数据统计](/assets/blog_images/mac_mini/PTPP.jpeg)
+![PTPP 数据统计](/assets/blog_images/mac_mini/PTPP_20250131.jpeg)
 
 邮箱（Base64 编码）：
 
