@@ -74,8 +74,16 @@ export default hopeTheme({
   plugins: {
     blog: true,
     comment: {
-      provider: "Waline",
-      serverURL: "https://waline.nerv.love",
+      provider: "Giscus",
+      repo: "knightofbatons/knightofbatons.github.io",
+      repoId: "R_kgDOJv3XMA",
+      category: "Announcements",
+      categoryId: "DIC_kwDOJv3XMM4C4h7R",
+      mapping: "pathname",
+      reactionsEnabled: true,
+      inputPosition: "bottom",
+      lightTheme: "light",
+      darkTheme: "dark",
     },
     slimsearch: {
       indexContent: true,
