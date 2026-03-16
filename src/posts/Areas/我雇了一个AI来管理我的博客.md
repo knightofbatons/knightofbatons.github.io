@@ -1,5 +1,6 @@
 ---
 title: 我雇了一个 AI 来管理我的博客
+cover: /assets/blog_images/openclaw/lobster-cover.png
 date: 2026-03-17
 category:
   - 记录
