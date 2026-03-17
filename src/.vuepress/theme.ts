@@ -79,7 +79,7 @@ export default hopeTheme({
       repoId: "R_kgDOJv3XMA",
       category: "Announcements",
       categoryId: "DIC_kwDOJv3XMM4C4h7R",
-      mapping: "pathname",
+      mapping: "title",
       reactionsEnabled: true,
       inputPosition: "bottom",
       lightTheme: "light",
